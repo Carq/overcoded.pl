@@ -2,6 +2,8 @@
 id: 638
 title: "Tablice w C# &#8211; Tips&#038;Tricks"
 date: "2022-08-18T07:00:00+02:00"
+guid: "https://overcoded.pl/?p=638"
+permalink: /csharp-tablice-tipstricks/
 author: Carq
 excerpt: "Oto kilka pożytecznych wskazówek i trików, które mogą się przydać przy pracy z tablicami w C# i .NET."
 categories: ["C#"]

@@ -18,13 +18,13 @@ Domain Driven Design – to podejście do tworzenia oprogramowania, które konce
   - Ubiquitous Language (common language)
   - Context Maps
 - **Tactical design**
-  - [Encje – Entities](/posts/encje-podstawy-ddd/)
-  - [Value Objects](/posts/value-objects/)
-  - [Agregaty – Aggregates](/posts/agregat-ddd/)
-  - [Serwisy domenowe – Domain Services](/posts/domain-services-ddd/)
-  - [Repozytoria – Repositories](/posts/repozytorium-ddd/)
-  - [Metody wytwórcze – Factories](/posts/factory-ddd/)
-  - [Zdarzenia domenowe – Domain Events](/posts/zdarzenia-domenowe-ddd/)
+  - [Encje – Entities](/encje-podstawy-ddd/)
+  - [Value Objects](/value-objects/)
+  - [Agregaty – Aggregates](/agregat-ddd/)
+  - [Serwisy domenowe – Domain Services](/domain-services-ddd/)
+  - [Repozytoria – Repositories](/repozytorium-ddd/)
+  - [Metody wytwórcze – Factories](/factory-ddd/)
+  - [Zdarzenia domenowe – Domain Events](/zdarzenia-domenowe-ddd/)
   - Modules
 
 Z czasem będę dodawał wpisy o DDD, a powyższa lista będzie aktualizowana o linki i ewentualne nowe tematy. Trzymajcie kciuki 🤞🏼

@@ -1,5 +1,7 @@
 ---
 id: 295
+guid: "https://overcoded.pl/?p=295"
+permalink: /valuetask-co-to-jest-i-kiedy-go-uzywac/
 title: "ValueTask - co to jest i kiedy go używać"
 date: "2022-02-11T17:50:26+01:00"
 author: Carq

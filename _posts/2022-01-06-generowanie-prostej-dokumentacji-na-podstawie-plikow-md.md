@@ -1,4 +1,7 @@
 ---
+id: 141
+guid: "https://overcoded.pl/?p=141"
+permalink: /generowanie-prostej-dokumentacji-na-podstawie-plikow-md/
 title: "Generowanie prostej dokumentacji na podstawie plików .md"
 date: "2022-01-06T16:52:34+01:00"
 author: Carq
@@ -23,7 +26,7 @@ Jeżeli potrzebujemy prostego rozwiązania, które po prostu działa i nie wymag
 
 Użyjemy prostej JSowej biblioteki **[Single Page Markdown Website](https://yuanqing.github.io/single-page-markdown-website/)** (wymagany jest [NodeJS](https://nodejs.org/)). Dzięki niej wystarczy jedna komenda, aby wygenerować stronę HTML.
 
-![single-page markdown website](/assets/posts//generowanie_dokumentacji_01.png)
+![single-page markdown website](/assets/posts/generowanie_dokumentacji_01.png)
 
 Poniższą komendę odpalamy w folderze, gdzie znajdują się pliki .md, na podstawie których chcemy wygenerować stronę:
 
@@ -69,7 +72,7 @@ Rezultat działania zademonstruję na przykładzie mojego repozytorium GITa, gdz
 
 <https://carq.github.io/reading-list/> – wygenerowana strona, a poniżej zrzut ekranu.
 
-![single-page markdown website](/assets/posts//generowanie_dokumentacji_02.png)
+![single-page markdown website](/assets/posts/generowanie_dokumentacji_02.png)
 
 ## Podsumowanie
 

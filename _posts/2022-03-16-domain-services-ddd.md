@@ -1,5 +1,7 @@
 ---
 id: 369
+guid: "https://overcoded.pl/?p=369"
+permalink: /domain-services-ddd/
 title: "Domain Service &#8211; DDD"
 date: "2022-03-16T18:44:04+01:00"
 author: Carq

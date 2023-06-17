@@ -3,6 +3,8 @@ id: 534
 title: "Zdarzenia domenowe &#8211; DDD"
 date: "2022-07-21T08:00:00+02:00"
 author: Carq
+guid: "https://overcoded.pl/?p=534"
+permalink: /zdarzenia-domenowe-ddd/
 excerpt: "W DDD zdarzenia domenowe (Domain Events) są odpowiedzialne za powiadamianie całej naszej domeny o tym, że coś interesującego wydarzyło się. Inna część aplikacji może nasłuchiwać na konkretne wydarzenie i zareagować na nie."
 categories: [DDD]
 tags: [ddd, "C#", .net, "domain events", "zdarzenia domenowe"]
@@ -17,7 +19,7 @@ W DDD zdarzenia domenowe (Domain Events) są odpowiedzialne za powiadamianie ca�
 
 ### Właściwości zdarzeń domenowych
 
-- **[Agregaty](/posts/agregat-ddd/) lub [Encje](/posts/encje-podstawy-ddd/) publikują zdarzenia** — każda metoda, która zmienia stan systemu, może publikować zdarzenia domenowe.
+- **[Agregaty](/agregat-ddd/) lub [Encje](/encje-podstawy-ddd/) publikują zdarzenia** — każda metoda, która zmienia stan systemu, może publikować zdarzenia domenowe.
 
 - **Najpierw wydarzenie, następnie publikacja** — system dostaje informację, że coś **już się wydarzyło**, a nie że dopiero może się wydarzyć. Załóżmy, że mamy encję `User`, która posiada metodę aktywującą użytkownika `Activate`. Metoda `Activate` opublikuje zdarzenie, na które zareaguje reszta systemu (wysłany zostanie email powitalny, zostaną pobrane pieniądze z konta użytkownika itd.). Może się natomiast zdarzyć, że przy zapisie zmian w obiekcie `User` do bazy coś się posypało, np. jakaś walidacja pola w tabeli nie przeszła i zmiany nie zostały zapisane. Aktywacja użytkownika nie doszła do skutku, jednak zdarzenie świadczące o tym zostało już rozpropagowane w systemie. Dlatego publikacja zdarzeń i ich obsługa powinna następować wtedy, gdy akcja powodująca publikację zdarzenia faktycznie zakończyła się powodzeniem.
 

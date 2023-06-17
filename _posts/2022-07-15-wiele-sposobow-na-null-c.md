@@ -1,5 +1,7 @@
 ---
 id: 487
+guid: "https://overcoded.pl/?p=487"
+permalink: /wiele-sposobow-na-null-c/
 title: "Wiele sposobów na null C#"
 date: "2022-07-15T22:47:10+02:00"
 author: Carq

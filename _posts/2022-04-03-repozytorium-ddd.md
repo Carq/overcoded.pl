@@ -1,5 +1,7 @@
 ---
 id: 410
+guid: "https://overcoded.pl/?p=410"
+permalink: /repozytorium-ddd/
 title: "Repozytorium &#8211; DDD"
 date: "2022-04-03T15:11:28+02:00"
 author: Carq
@@ -17,7 +19,7 @@ Repozytorium ([Repository](https://martinfowler.com/eaaCatalog/repository.html))
 
 ### Właściwości Repozytorium
 
-- **Operują na [Agregatach](/posts/agregat-ddd/)** – jest to najważniejsza właściwość repozytorium – pobiera lub zapisuje wyłącznie agregaty wraz z połączonymi encjami (aczkolwiek są pewne wyjątki od tego 😉, o tym poniżej). Powinniśmy dążyć do tego, aby wyciągać całe agregaty, a nie tylko jego części.
+- **Operują na [Agregatach](/agregat-ddd/)** – jest to najważniejsza właściwość repozytorium – pobiera lub zapisuje wyłącznie agregaty wraz z połączonymi encjami (aczkolwiek są pewne wyjątki od tego 😉, o tym poniżej). Powinniśmy dążyć do tego, aby wyciągać całe agregaty, a nie tylko jego części.
 
 - **Repozytoria mogą być używane przez Agregaty** – do pobierania dzieci (np. Lazy Loading w przypadku dużych agregatów) lub do pobierania potrzebnych danych z innych agregatów – są to wyjątki do powyższej zasady.
 
@@ -45,7 +47,7 @@ calendarRepository.Find(CalendarSpecifications.EmptyCalendar);
 
 ```
 
-**Complex Query** – Repozytorium może zebrać dane z wielu agregatów (np. dla jakiegoś raportu). Wykorzystujemy do tego **Use Case Optimal Query** czyli złożonego query na warstwie persystencji bazy, dynamicznie zamieniające wynik query na [ValueObject ](posts/value-objects/)– specjalnie stworzony dla takich danych.
+**Complex Query** – Repozytorium może zebrać dane z wielu agregatów (np. dla jakiegoś raportu). Wykorzystujemy do tego **Use Case Optimal Query** czyli złożonego query na warstwie persystencji bazy, dynamicznie zamieniające wynik query na [ValueObject ](/value-objects/)– specjalnie stworzony dla takich danych.
 
 ### Podsumowanie
 

@@ -1,4 +1,7 @@
 ---
+id: 327
+guid: "https://overcoded.pl/?p=327"
+permalink: /agregat-ddd/
 title: "Agregat - DDD"
 date: "2022-03-05T12:46:54+01:00"
 author: Carq
@@ -7,7 +10,7 @@ categories: [DDD]
 tags: [.net, "c#", ddd]
 ---
 
-Agregat (Aggregate) jest głównym **_Building Blocks_** w Domain Driven Design (DDD). Grupuje on powiązane biznesowo ze sobą [Encje](/posts/encje-podstawy-ddd/) i [Value Objects](/posts/value-objects/), które można traktować jako pojedynczy obiekt. Agregat zapewnia transakcyjności operacji biznesowych w systemie.
+Agregat (Aggregate) jest głównym **_Building Blocks_** w Domain Driven Design (DDD). Grupuje on powiązane biznesowo ze sobą [Encje](/encje-podstawy-ddd/) i [Value Objects](/value-objects/), które można traktować jako pojedynczy obiekt. Agregat zapewnia transakcyjności operacji biznesowych w systemie.
 
 <!-- prettier-ignore-start  -->
 > Wpis jest częścią serii o [DDD](/ddd/).
@@ -28,9 +31,9 @@ Agregat (Aggregate) jest głównym **_Building Blocks_** w Domain Driven Design 
 
 - **Aggregate może trzymać reference przez „identity”** – czyli może posiadać reference do innych agregatów (najlepiej jako Id do tego korzenia agregatu) i pobiera go tylko wtedy, kiedy go potrzebuje **(Disconnected Domaion Model)**. Obiekt **Calendar** może mieć reference na użytkownika (UserId lub UserGlobalId), ale nie może go modyfikować np. nie może zablokować użytkownika. Patrz punkt wyżej ⤴️
 
-- **Publikuje zdarzenia domenowe (Domain Events)** – więcej w osobnym wpisie o [zdarzeniach domenowych](/posts/zdarzenia-domenowe-ddd/).
+- **Publikuje zdarzenia domenowe (Domain Events)** – więcej w osobnym wpisie o [zdarzeniach domenowych](/zdarzenia-domenowe-ddd/).
 
-- **Może korzystać z [Domain Service](/posts/domain-services-ddd/)** – w swoich metodach może korzystać z Domain Service, aby zapewnić spójność biznesową. **Calendar** korzystałby z Domain Serwisu, który zwracałby informacje czy dany dzień jest dniem wolnym od pracy.
+- **Może korzystać z [Domain Service](/domain-services-ddd/)** – w swoich metodach może korzystać z Domain Service, aby zapewnić spójność biznesową. **Calendar** korzystałby z Domain Serwisu, który zwracałby informacje czy dany dzień jest dniem wolnym od pracy.
 
 ### Dobre praktyki przy modelowaniu Agregatów
 

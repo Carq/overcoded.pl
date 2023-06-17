@@ -1,6 +1,9 @@
 ---
+id: 623
 title: "Jak urozmaicić aplikacje konsolowe? Figgle!"
 date: "2022-08-04T07:00:00+02:00"
+guid: "https://overcoded.pl/?p=623"
+permalink: /jak-urozmaicic-aplikacje-konsolowe/
 author: Carq
 excerpt: "Programista czasem musi napisać narzędzie wspomagające pracę zespołu (lub swoją) w formie aplikacji konsolowej. Można napisać kolejną nudną aplikację albo..."
 categories: [Narzędzia]

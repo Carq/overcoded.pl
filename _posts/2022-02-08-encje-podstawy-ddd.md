@@ -1,5 +1,7 @@
 ---
 id: 253
+guid: "https://overcoded.pl/?p=253"
+permalink: /encje-podstawy-ddd/
 title: "Encje - podstawy DDD"
 date: "2022-02-08T20:17:56+01:00"
 author: Carq
@@ -18,7 +20,7 @@ Encja (entity) lub też obiekt domenowy jest kolejnym **_Building Blocks_** w Do
 
 - **Identyfikowalne, ma tożsamość** – czyli posiada coś, co pozwala ją jednoznacznie zidentyfikować – jest to główna cecha encji. Obecnie najczęściej nadaje się tożsamość obiektowi domenowemu przez wygenerowaniu mu **Id**, za co odpowiedzialny jest silnik bazodanowy. Innymi przykładami z życia to numer konta bankowego albo numer seryjny urządzenia nadawany przez producentów. Encja będzie się zmieniać z czasem i może wyglądać zupełnie inaczej niż na samym początku, gdy ją tworzyliśmy, ale dalej będzie miała tą samą tożsamość (np. **Id**).
 
-- **Opisuje coś znaczącego w domenie –** encja powinna modelować konkretną logikę domenową aplikacji, np. jeżeli mielibyśmy obiekt **User**, to mógłby on zawierać logikę związaną z rejestracją użytkownika lub też jego zablokowaniem. Jeżeli mielibyśmy obiekt, który trzyma tylko typy proste, jedynie dba o ich poprawną wartością i nie posiada żadnej innej logiki domenowej to prawdopodobnie nie jest to Encja (może [Value Objects](/posts/value-objects/)?), raczej będzie to anemiczny model, który jest antywzorcem.
+- **Opisuje coś znaczącego w domenie –** encja powinna modelować konkretną logikę domenową aplikacji, np. jeżeli mielibyśmy obiekt **User**, to mógłby on zawierać logikę związaną z rejestracją użytkownika lub też jego zablokowaniem. Jeżeli mielibyśmy obiekt, który trzyma tylko typy proste, jedynie dba o ich poprawną wartością i nie posiada żadnej innej logiki domenowej to prawdopodobnie nie jest to Encja (może [Value Objects](/value-objects/)?), raczej będzie to anemiczny model, który jest antywzorcem.
 
 - **Posiada domenowe zachowania i dane** – encja posiada metody, które odpowiadają biznesowym akcjom lub procesom. Jeżeli akcją biznesową jest „Publikowanie Artykułu” to możliwe, że nasza domena będzie zawierać encję **Article** z metodą **Publish()**.
 
@@ -31,7 +33,7 @@ article.SetTitle("Podstawy DDD"); // DOBRZE
 
 - **Encja posiada walidację, która zapobiega wprowadzeniu jej w niepoprawny stan** – każda metoda, która zmienia stan Encji, powinna weryfikować parametry wejściowe oraz stan całego obiektu. Możemy też użyć wzorca Specyfikacji (Specification) lub Strategi (Strategy), oraz opóźnić walidacje stanu całej encji (Deferred Validation) – powstanie osobny wpis na ten temat.
 
-- **Publikuje zdarzenia domenowe (Domain Events)** – wracając do przykładu z metodą **Publish()** – to na jej końcu moglibyśmy wygenerować event **ArticleHasBeenPublishedEvent**, który by powiadamiał cały system o tym wydarzeniu. Tutaj osobny wpis o [zdarzeniach domenowych](/posts/zdarzenia-domenowe-ddd/).
+- **Publikuje zdarzenia domenowe (Domain Events)** – wracając do przykładu z metodą **Publish()** – to na jej końcu moglibyśmy wygenerować event **ArticleHasBeenPublishedEvent**, który by powiadamiał cały system o tym wydarzeniu. Tutaj osobny wpis o [zdarzeniach domenowych](/zdarzenia-domenowe-ddd/).
 
 - **Prawa Demeter** – Nie odwołujemy się bezpośrednio do zachowań lub danych wewnętrznych obiektów Encji. Zamiast tego tworzymy odpowiednią metodę, która robi to, co potrzebujemy. Dzięki temu, jeżeli wewnętrzna implementacja się zmieni, to nie wpłynie to na resztę aplikacji, w której dany kod jest używany. W poniższym przykładzie pobieramy imię autora, ale w przyszłości może się okazać, że imię autora będziemy pobierać z obiektu, który w momencie implementacji naszej głównej Encji jeszcze nie istnieje, np. z **Author** zamiast obiektu **User**. Zachowanie prawa Demeter zaoszczędza dużo czasu przy refaktoryzacjach kodu 😉
 
@@ -100,7 +102,7 @@ public class Article
 
 ```
 
-Właściwości **_Title_** i **_Text_** mogłyby być [Value Objects](/posts/value-objects/), które same by się walidowały, wtedy kod powyższy Encji by się uprościł.
+Właściwości **_Title_** i **_Text_** mogłyby być [Value Objects](/value-objects/), które same by się walidowały, wtedy kod powyższy Encji by się uprościł.
 
 ## Podsumowanie
 

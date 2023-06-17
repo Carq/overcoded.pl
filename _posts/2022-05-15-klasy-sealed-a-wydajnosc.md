@@ -1,4 +1,7 @@
 ---
+id: 450
+guid: "https://overcoded.pl/?p=407"
+permalink: "/klasy-sealed-a-wydajnosc/"
 title: "Klasy sealed a wydajność"
 date: "2022-05-15T17:56:44+01:00"
 author: Carq

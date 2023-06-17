@@ -1,5 +1,7 @@
 ---
 id: 313
+guid: "https://overcoded.pl/?p=313"
+permalink: /null-wybacz/
 title: "null! &#8211; Operator wybaczający"
 date: "2022-02-15T17:56:44+01:00"
 author: Carq
