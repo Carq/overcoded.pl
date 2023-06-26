@@ -7,7 +7,7 @@ date: "2022-04-03T15:11:28+02:00"
 author: Carq
 excerpt: "Repozytorium jest powszechnie znanym wzorcem projektowym do separacji technologii zapisu od kodu biznesowego. Używany jest również w DDD, trzeba jednak pamiętać o kilku zasadach."
 categories: [DDD]
-tags: [ddd, "C#", .net]
+tags: [ddd, "c#", .net]
 ---
 
 Repozytorium ([Repository](https://martinfowler.com/eaaCatalog/repository.html)) jest ogólnie znanym wzorcem, którego rolą jest zapisywanie i pobieranie obiektów z bazy danych lub innego miejsca gdzie możemy utrwalić dane. Uzupełniając ten wzorzec o kilka dodatkowych właściwości dostaniemy **_Building Blocks_** z Domain Driven Design (DDD).

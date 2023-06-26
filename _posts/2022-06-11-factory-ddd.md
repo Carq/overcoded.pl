@@ -6,7 +6,7 @@ title: "Factory, metody wytwórcza &#8211; DDD"
 date: "2022-06-11T14:22:21+02:00"
 author: Carq
 categories: [DDD]
-tags: [ddd, "C#", .net]
+tags: [ddd, "c#", .net]
 ---
 
 Factory (fabryka) jest dobrze znanym wzorcem projektowym, który występuje też w DDD jako część Tactical Design. Głównym celem fabryk, albo mówiąc inaczej metod wytwórczych jest uproszczenie tworzenia skomplikowanych obiektów.

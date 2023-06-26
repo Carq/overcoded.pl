@@ -1,7 +1,7 @@
 ---
 id: 66
 guid: "https://overcoded.pl/?p=66"
-permalink: /hello-world-%f0%9f%a4%93/
+permalink: /hello-world/
 title: "Hello World 🤓"
 author: "Carq"
 date: "2022-01-03T21:25:49+01:00"

@@ -3,7 +3,7 @@ id: 264
 title: "Obiekty domenowe i role w DDD"
 date: "2022-08-26T19:34:07+02:00"
 author: Carq
-tags: [ddd, "C#", .net]
+tags: [ddd, "c#", .net]
 ---
 
 Zazwyczaj, gdy tworzymy nowy obiekt domenowy, to jest on prosty. Jednak z czasem dochodzą nowe wymagania biznesowe i musimy rozbudowywać encję o nowe zachowania czy też odpowiedzialności (responsibilities). Ostatecznie może to doprowadzić do tego, że nasza encja rozrośnie się do dużych rozmiarów. W pewnym momencie uznamy, że najlepiej będzie ją rozbić na mniejsze encje, pomiędzy, które zostaną rozdzielone odpowiedzialności z oryginalnej przerośniętej encji. Aby nasz kod był bardziej elastyczny i dodatkowo pozwalał wprowadzać takie zmiany minimalnym kosztem, możemy Encjom nadawać **Role (Roles)**.

@@ -6,7 +6,7 @@ title: "Encje - podstawy DDD"
 date: "2022-02-08T20:17:56+01:00"
 author: Carq
 categories: [DDD]
-tags: [ddd, "C#", .net]
+tags: [ddd, "c#", .net]
 ---
 
 Encja (entity) lub też obiekt domenowy jest kolejnym **_Building Blocks_** w Domain Driven Design (DDD). Encja opisuje znaczący kawałek domeny, który posiada **unikalną tożsamość** wraz z zestawem zachowań i danych (które mogą się zmieniać z czasem). Mówiąc prościej, większość logiki biznesowej i danych naszej aplikacji będzie w Encji. 😉 Przykładowymi encjami mogą być: **User**, **Article** lub **Smartphone** – Jest wiele takich encji, ale każda jest unikalna.

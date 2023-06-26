@@ -7,7 +7,7 @@ date: "2022-03-16T18:44:04+01:00"
 author: Carq
 excerpt: "Serwis domenowy (domain service) to biznesowa operacja która nie wpasowuje się do odpowiedzialności Agregatu lub Value Objectu. "
 categories: [DDD]
-tags: [ddd, "C#", .net]
+tags: [ddd, "c#", .net]
 ---
 
 Serwis domenowy (domain service) to biznesowa operacja, która nie wpasowuje się w odpowiedzialności [Agregatów](/posts/agregat-ddd/) lub [Value Objectów](posts/value-objects/).

@@ -7,7 +7,7 @@ guid: "https://overcoded.pl/?p=534"
 permalink: /zdarzenia-domenowe-ddd/
 excerpt: "W DDD zdarzenia domenowe (Domain Events) są odpowiedzialne za powiadamianie całej naszej domeny o tym, że coś interesującego wydarzyło się. Inna część aplikacji może nasłuchiwać na konkretne wydarzenie i zareagować na nie."
 categories: [DDD]
-tags: [ddd, "C#", .net, "domain events", "zdarzenia domenowe"]
+tags: [ddd, "c#", .net, "domain events", "zdarzenia domenowe"]
 ---
 
 W DDD zdarzenia domenowe (Domain Events) są odpowiedzialne za powiadamianie całej naszej domeny o tym, że coś interesującego **się wydarzyło**. Inna część aplikacji może nasłuchiwać na konkretne wydarzenie i zareagować na nie.

@@ -8,7 +8,7 @@ title: "Value Objects"
 date: "2022-01-30T16:32:51+01:00"
 author: Carq
 categories: [DDD]
-tags: [ddd, "C#"]
+tags: [ddd, "c#"]
 ---
 
 Value Object jest najmniejszym z **_Building Blocks_** w Domain Driven Design (DDD). Value Objects pomagają pisać znacznie prostszy kod, który łatwo się testuje, modeluje, utrzymuje i jednocześnie jest niezwykle zrozumiały. W szczególności Value Objects upraszczają walidacje typów prostych (np. `int`, `string`) które wpuszczamy do systemu. Kolejną dużą zaletą jest prostota implementacji, która pozwala używać Value Objects w każdym projekcie bez konieczności wprowadzenia całego podejścia jakim jest DDD.
