@@ -6,6 +6,7 @@ title: "Encje - podstawy DDD"
 date: "2022-02-08T20:17:56+01:00"
 author: Carq
 categories: [DDD]
+image: /assets/posts/encje-podstawy-ddd-header.png
 tags: [ddd, "c#", .net]
 ---
 

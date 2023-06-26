@@ -5,6 +5,7 @@ permalink: /repozytorium-ddd/
 title: "Repozytorium &#8211; DDD"
 date: "2022-04-03T15:11:28+02:00"
 author: Carq
+image: /assets/posts/repozytorium-ddd-header.png
 excerpt: "Repozytorium jest powszechnie znanym wzorcem projektowym do separacji technologii zapisu od kodu biznesowego. Używany jest również w DDD, trzeba jednak pamiętać o kilku zasadach."
 categories: [DDD]
 tags: [ddd, "c#", .net]

@@ -5,6 +5,7 @@ permalink: /generowanie-prostej-dokumentacji-na-podstawie-plikow-md/
 title: "Generowanie prostej dokumentacji na podstawie plików .md"
 date: "2022-01-06T16:52:34+01:00"
 author: Carq
+image: /assets/posts/generowanie-prostej-dokumentacji-na-podstawie-plikow-md-header.png
 categories: [Narzędzia]
 tags: [biblioteka, "java script"]
 ---

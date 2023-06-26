@@ -1,12 +1,11 @@
 ---
 id: 205
-guid: 'https://overcoded.pl/?p=141'
-permalink: /generowanie-prostej-dokumentacji-na-podstawie-plikow-md/
 guid: "https://overcoded.pl/?p=205"
 permalink: /value-objects/
 title: "Value Objects"
 date: "2022-01-30T16:32:51+01:00"
 author: Carq
+image: /assets/posts/value-objects-header.png
 categories: [DDD]
 tags: [ddd, "c#"]
 ---

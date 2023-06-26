@@ -7,6 +7,7 @@ date: "2022-03-05T12:46:54+01:00"
 author: Carq
 excerpt: "Agregat (Aggregate) jest głównym Building Blocks\_w Domain Driven Design (DDD). Grupuje on powiązane biznesowo ze sobą Encje i Value Objects, które można traktować jako pojedynczy obiekt. Agregat zapewnia trakcyjność operacji biznesowych w systemie."
 categories: [DDD]
+image: /assets/posts/agregat-ddd-header.png
 tags: [.net, "c#", ddd]
 ---
 

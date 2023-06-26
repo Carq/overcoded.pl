@@ -5,6 +5,7 @@ permalink: /factory-ddd/
 title: "Factory, metody wytwórcza &#8211; DDD"
 date: "2022-06-11T14:22:21+02:00"
 author: Carq
+image: /assets/posts/factory-ddd-header.png
 categories: [DDD]
 tags: [ddd, "c#", .net]
 ---

@@ -2,9 +2,10 @@
 id: 369
 guid: "https://overcoded.pl/?p=369"
 permalink: /domain-services-ddd/
-title: "Domain Service &#8211; DDD"
+title: "Sewis Domenowy &#8211; DDD"
 date: "2022-03-16T18:44:04+01:00"
 author: Carq
+image: /assets/posts/domain-services-ddd-header.png
 excerpt: "Serwis domenowy (domain service) to biznesowa operacja która nie wpasowuje się do odpowiedzialności Agregatu lub Value Objectu. "
 categories: [DDD]
 tags: [ddd, "c#", .net]
