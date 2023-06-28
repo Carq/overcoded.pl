@@ -7,6 +7,7 @@ date: "2022-07-15T22:47:10+02:00"
 author: Carq
 excerpt: "W .NET jest kilka sposobów aby sprawdzić czy obiekt lub parametr jest null."
 categories: ["C#"]
+image: /assets/posts/wiele-sposobow-na-null-c-header.png
 tags: [.net, "c#"]
 ---
 

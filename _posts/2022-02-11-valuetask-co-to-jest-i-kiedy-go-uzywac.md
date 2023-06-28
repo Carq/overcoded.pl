@@ -6,6 +6,7 @@ title: "ValueTask - co to jest i kiedy go używać"
 date: "2022-02-11T17:50:26+01:00"
 author: Carq
 categories: ["C#"]
+image: /assets/posts/valuetask-co-to-jest-i-kiedy-go-uzywac-header.png
 tags: [.net, "c#", performance, task, ValueTask]
 ---
 

@@ -7,6 +7,7 @@ permalink: /jak-urozmaicic-aplikacje-konsolowe/
 author: Carq
 excerpt: "Programista czasem musi napisać narzędzie wspomagające pracę zespołu (lub swoją) w formie aplikacji konsolowej. Można napisać kolejną nudną aplikację albo..."
 categories: [Narzędzia]
+image: /assets/posts/jak-urozmaicic-aplikacje-konsolowe-header.png
 tags: [biblioteka, "c#", notka]
 ---
 

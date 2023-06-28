@@ -7,6 +7,7 @@ date: "2022-05-15T17:56:44+01:00"
 author: Carq
 excerpt: "W .NET można oznaczyć klasy słowem kluczowym sealed co powoduje, że poprawia się wydajność wywołań metod wirtualnych 😲."
 categories: ["C#"]
+image: /assets/posts/klasy-sealed-a-wydajnosc-header.png
 tags: [.net, "c#", notka, peformance]
 ---
 

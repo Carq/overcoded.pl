@@ -7,6 +7,7 @@ date: "2022-02-15T17:56:44+01:00"
 author: Carq
 excerpt: "Bardzo przydatny operator w sytuacjach kiedy wiemy o tym, że zmienna nie może być w danym miejscu nullem bo np.  wyżej jest to sprawdzane wewnątrz innej metody a statyczna analiza kodu zgłasza nam irytujące ostrzeżenie.  Operator ten nie wpływa na runtime kodu, jedynie na statyczną analizę kodu."
 categories: ["C#"]
+image: /assets/posts/null-wybacz-header.png
 tags: [.net, "c#", notka]
 ---
 

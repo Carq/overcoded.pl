@@ -7,6 +7,7 @@ permalink: /csharp-tablice-tipstricks/
 author: Carq
 excerpt: "Oto kilka pożytecznych wskazówek i trików, które mogą się przydać przy pracy z tablicami w C# i .NET."
 categories: ["C#"]
+image: /assets/posts/csharp-tablice-tipstricks-header.png
 tags: [.net, "c#", performance, tips, tricks]
 ---
 
