@@ -22,5 +22,4 @@ IList<SomeDev> devs = new List<SomeDev>() { new SomeDev(1), new SomeDev(3), new 
 var dev = devs.SingleOrDefault(x => x.SkillLevel == 1);
 
 Console.WriteLine(dev!.Name);
-
 ```
