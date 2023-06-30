@@ -1,7 +1,7 @@
 ---
 id: 205
 guid: "https://overcoded.pl/?p=205"
-permalink: /value-objects/
+permalink: /value-object-ddd/
 title: "Value Objects"
 date: "2022-01-30T16:32:51+01:00"
 author: Carq
