@@ -48,7 +48,7 @@ calendarRepository.Find(CalendarSpecifications.EmptyCalendar);
 
 ```
 
-**Complex Query** – Repozytorium może zebrać dane z wielu agregatów (np. dla jakiegoś raportu). Wykorzystujemy do tego **Use Case Optimal Query** czyli złożonego query na warstwie persystencji bazy, dynamicznie zamieniające wynik query na [ValueObject ](/value-objects/)– specjalnie stworzony dla takich danych.
+**Complex Query** – Repozytorium może zebrać dane z wielu agregatów (np. dla jakiegoś raportu). Wykorzystujemy do tego **Use Case Optimal Query** czyli złożonego query na warstwie persystencji bazy, dynamicznie zamieniające wynik query na [ValueObject ](/value-object-ddd/)– specjalnie stworzony dla takich danych.
 
 ### Podsumowanie
 

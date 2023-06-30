@@ -19,7 +19,7 @@ Domain Driven Design – to podejście do tworzenia oprogramowania, które konce
   - Context Maps
 - **Tactical design**
   - [Encje – Entities](/encje-podstawy-ddd/)
-  - [Value Objects](/value-objects/)
+  - [Value Objects](/value-object-ddd/)
   - [Agregaty – Aggregates](/agregat-ddd/)
   - [Serwisy domenowe – Domain Services](/domain-services-ddd/)
   - [Repozytoria – Repositories](/repozytorium-ddd/)

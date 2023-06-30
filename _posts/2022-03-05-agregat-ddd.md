@@ -11,7 +11,7 @@ image: /assets/posts/agregat-ddd-header.png
 tags: [.net, "c#", ddd]
 ---
 
-Agregat (Aggregate) jest głównym **_Building Blocks_** w Domain Driven Design (DDD). Grupuje on powiązane biznesowo ze sobą [Encje](/encje-podstawy-ddd/) i [Value Objects](/value-objects/), które można traktować jako pojedynczy obiekt. Agregat zapewnia transakcyjności operacji biznesowych w systemie.
+Agregat (Aggregate) jest głównym **_Building Blocks_** w Domain Driven Design (DDD). Grupuje on powiązane biznesowo ze sobą [Encje](/encje-podstawy-ddd/) i [Value Objects](/value-object-ddd/), które można traktować jako pojedynczy obiekt. Agregat zapewnia transakcyjności operacji biznesowych w systemie.
 
 <!-- prettier-ignore-start  -->
 > Wpis jest częścią serii o [DDD](/ddd/).

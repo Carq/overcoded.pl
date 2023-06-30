@@ -11,7 +11,7 @@ categories: [DDD]
 tags: [ddd, "c#", .net]
 ---
 
-Serwis domenowy (domain service) to biznesowa operacja, która nie wpasowuje się w odpowiedzialności [Agregatów](/posts/agregat-ddd/) lub [Value Objectów](posts/value-objects/).
+Serwis domenowy (domain service) to biznesowa operacja, która nie wpasowuje się w odpowiedzialności [Agregatów](/agregat-ddd/) lub [Value Objectów](/value-object-ddd/).
 
 <!-- prettier-ignore-start  -->
 > Wpis jest częścią serii o [DDD](/ddd/).

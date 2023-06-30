@@ -19,11 +19,11 @@ Factory (fabryka) jest dobrze znanym wzorcem projektowym, który występuje też
 
 ### Właściwości fabryki
 
-- **Tworzenie instancji złożonych obiektów** – [Agreg](/agregat-ddd/)[at](/agregat-ddd/), [Encja](/encje-podstawy-ddd/) lub [Value Objects](/value-objects/) może posiadać np. statyczną metodę wytwórczą, która upraszcza tworzenie instancji obiektów domenowych posiadających np. konstruktory z wieloma parametrami. Przykład będzie poniżej ⤵️
+- **Tworzenie instancji złożonych obiektów** – [Agreg](/agregat-ddd/)[at](/agregat-ddd/), [Encja](/encje-podstawy-ddd/) lub [Value Objects](/value-object-ddd/) może posiadać np. statyczną metodę wytwórczą, która upraszcza tworzenie instancji obiektów domenowych posiadających np. konstruktory z wieloma parametrami. Przykład będzie poniżej ⤵️
 
 - **Nazwy metod odwzorowują domenowy język** – konstruktory mówią zazwyczaj jakie dane są wymagane do utworzenia obiektu, a nie co konkretnie powstanie np. mając klasę **Car**, która przyjmuje jako parametry ilość koni mechanicznych i prędkość maksymalną, to przy użyciu samego konstruktora nie dowiemy się jaki samochód tworzymy, ale jeżeli mielibyśmy metodę **_CreateFerrari_**, która by tworzyła obiekt Car z odpowiednimi parametrami, to kod byłby dużo bardziej czytelny. Z czasem ilość parametrów w konstruktorze może urosnąć lub też ilość samych konstruktorów się może zwiększyć przez co kod może być cięższy do zrozumienia. Używając dobrze nazwanych metod wytwórczych możemy zwiększyć czytelność naszego kodu. Przykład będzie poniżej ⤵️
 
-- **Fabryka może być osobną klasą, lub częścią istniejącego już obiektu domenowego** – metody fabryk mogą być umieszczone w kompletnie nowych klasach, które są odpowiedzialne tylko za tworzenie instancji lub też po prostu być częścią [Agregatów](/agregat-ddd/), [Encji ](/encje-podstawy-ddd/)lub [Value Objectów](/value-objects/).
+- **Fabryka może być osobną klasą, lub częścią istniejącego już obiektu domenowego** – metody fabryk mogą być umieszczone w kompletnie nowych klasach, które są odpowiedzialne tylko za tworzenie instancji lub też po prostu być częścią [Agregatów](/agregat-ddd/), [Encji ](/encje-podstawy-ddd/)lub [Value Objectów](/value-object-ddd/).
 
 - **Metoda wytwórcza na agregacie może tworzyć inny agregat** – przy tworzeniu agregatów czasem są potrzebne dane z innego obiektu. Aby uprościć ten proces agregat może mieć metodę wytwórczą, która tworzy na podstawie własnych właściwości agregat innego typu.
 
